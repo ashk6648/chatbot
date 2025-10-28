@@ -31,11 +31,11 @@ if "selected_model" not in st.session_state:
 
 # Define model details
 models = {
-    "gemma-7b-it": {"name": "Gemma-7b-it", "tokens": 8192, "developer": "Google"},
-    "llama2-70b-4096": {"name": "LLaMA2-70b-chat", "tokens": 4096, "developer": "Meta"},
-    "llama3-70b-8192": {"name": "LLaMA3-70b-8192", "tokens": 8192, "developer": "Meta"},
-    "llama3-8b-8192": {"name": "LLaMA3-8b-8192", "tokens": 8192, "developer": "Meta"},
-    "mixtral-8x7b-32768": {"name": "Mixtral-8x7b-Instruct-v0.1", "tokens": 32768, "developer": "Mistral"},
+    "gemma-7b-it": {"name": "openai/gpt-oss-20b", "tokens": 8192, "developer": "Openai"},
+    "llama2-70b-4096": {"name": "llama-3.1-8b-instant", "tokens": 4096, "developer": "Meta"},
+    "llama3-70b-8192": {"name": "llama-3.3-70b-versatile", "tokens": 8192, "developer": "Meta"},
+    "llama3-8b-8192": {"name": "moonshotai/kimi-k2-instruct", "tokens": 8192, "developer": "Meta"},
+    "mixtral-8x7b-32768": {"name": "moonshotai/kimi-k2-instruct-0905", "tokens": 32768, "developer": "Meta"},
 }
 
 # Layout for model selection and max_tokens slider
