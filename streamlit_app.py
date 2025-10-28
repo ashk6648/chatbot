@@ -35,7 +35,7 @@ models = {
     "llama-3.1-8b-instant": {"name": "llama-3.1-8b-instant", "tokens": 4096, "developer": "Meta"},
     "llama-3.3-70b-versatile": {"name": "llama-3.3-70b-versatile", "tokens": 8192, "developer": "Meta"},
     "moonshotai/kimi-k2-instruct": {"name": "moonshotai/kimi-k2-instruct", "tokens": 8192, "developer": "Meta"},
-    "moonshotai/kimi-k2-instruct-0905": {"name": "moonshotai/kimi-k2-instruct-0905", "tokens": 32768, "developer": "Meta"},
+    "moonshotai/kimi-k2-instruct-0905": {"name": "moonshotai/kimi-k2-instruct-0905", "tokens": 16384, "developer": "Meta"},
 }
 
 # Layout for model selection and max_tokens slider
