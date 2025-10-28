@@ -36,8 +36,8 @@ models = {
     "llama-3.3-70b-versatile": {"name": "llama-3.3-70b-versatile", "tokens": 8192, "developer": "Meta"},
     "moonshotai/kimi-k2-instruct": {"name": "moonshotai/kimi-k2-instruct", "tokens": 8192, "developer": "Meta"},
     "moonshotai/kimi-k2-instruct-0905": {"name": "moonshotai/kimi-k2-instruct-0905", "tokens": 16384, "developer": "Meta"},
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {"name": "meta-llama/llama-4-maverick-17b-128e-instruct", "tokens": 16384, "developer": "Meta"},
-    "meta-llama/llama-4-scout-17b-16e-instruct": {"name": "meta-llama/llama-4-scout-17b-16e-instruct", "tokens": 16384, "developer": "Meta"},
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {"name": "meta-llama/llama-4-maverick-17b-128e-instruct", "tokens": 8192, "developer": "Meta"},
+    "meta-llama/llama-4-scout-17b-16e-instruct": {"name": "meta-llama/llama-4-scout-17b-16e-instruct", "tokens": 8192, "developer": "Meta"},
     "openai/gpt-oss-120b": {"name": "openai/gpt-oss-120b", "tokens": 16384, "developer": "Meta"},
     "qwen/qwen3-32b": {"name": "qwen/qwen3-32b", "tokens": 16384, "developer": "Meta"},
 }
